@@ -1,6 +1,18 @@
 # CSC522_StockPrice
 This code is for CSC 522 at NCSU. It contains the code for the 10K and Stock Price Machine Learning Project
 
+522LinearRegression.py
+522MultiupleRegression.py
+
+To run:
+1. Put all files in same directory ( including 10Kpercentchange2.csv).
+2. Make that directory your working directory.
+3. Run "python <filename>" with Python 2.7 to generate results. Must have scikit-learn and pandas.
+  
+522LinearRegression.py runs a single linear regression at a time.  So the input variables (independent variable) must be changed and the file rerun.  To change variables, just use the column header names (pandas data frames).
+
+522MultiupleRegression.py runs the 5 independent variables (Flesch Reading Ease and the sentiment analysis variables) through a multiple regression.
+
 
 RunKNNClassifier.py
 RunKNNRegressor.py
@@ -8,7 +20,7 @@ RunKNNClassifierLOOCVSingle.py
 RunKNNRegressorLOOCVSingle.py
 
 To run:
-1. Put everything in the same directory.
+1. Put everything in the same directory  ( inclusing alldata.csv).
 2. Make that directory your working directory.
 3. Run "python <filename>" with Python 3 to generate results.
 
