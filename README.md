@@ -1,6 +1,14 @@
 # CSC522_StockPrice
 This code is for CSC 522 at NCSU. It contains the code for the 10K and Stock Price Machine Learning Project
 
+Generating the initial stock data.
+
+GetNamesHTTP.py - Gets the dates and names for the 10-K CIK number from the web.  Must have 10-K forms with CIK numbers in name to use program.
+GetTickerSymbol.py - Uses a csv file with a CIK to stock ticker symbol conversion.
+FixColumsGoogleFinance.py - Adds the GoogleFinance function to a file with the date and stock ticker symbol to get the price.
+GoogleSpreadsheetOutputMod.py - Takes the results of the GoogleFinance spreadsheet and puts the data into a friendly format.
+
+
 522LinearRegression.py
 522MultiupleRegression.py
 
